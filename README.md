@@ -1,4 +1,4 @@
-# LingWidget
+# StateFrameLayout
 实现Android 多状态加载布局
 ## Usage
 在app/build.gradle文件中添加依赖
