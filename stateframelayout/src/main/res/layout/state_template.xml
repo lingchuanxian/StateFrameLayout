@@ -1,0 +1,35 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/stContainer"
+        style="@style/sflContainer"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+
+        <!--android:indeterminateDrawable="@drawable/progressbar"-->
+        <ProgressBar
+            android:id="@+id/stProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/stImage"
+            style="@style/sflImage"/>
+
+        <TextView
+            android:id="@+id/stMessage"
+            android:text="@string/sflErrorMessage"
+            style="@style/sflMessage"/>
+
+        <Button
+            android:id="@+id/stButton"
+            android:text="@string/sflButtonText"
+            style="@style/sflButton"/>
+
+    </LinearLayout>
+
+</merge>
